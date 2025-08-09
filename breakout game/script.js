@@ -5,7 +5,11 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const color = getComputedStyle(document.documentElement).getPropertyValue(
   "--button-color"
-);
+);st rules = document.getElementById("rules");
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+const color = getComputedStyle(document.documentElement).getPropertyValue(
+  "--button-color"
 const secondaryColor = getComputedStyle(
   document.documentElement
 ).getPropertyValue("--sidebar-color");
