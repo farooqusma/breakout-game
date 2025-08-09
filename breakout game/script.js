@@ -9,7 +9,7 @@ const color = getComputedStyle(document.documentElement).getPropertyValue(
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const color = getComputedStyle(document.documentElement).getPropertyValue(
-  "--button-color"
+  "--button-color"9090909
 const secondaryColor = getComputedStyle(
   document.documentElement
 ).getPropertyValue("--sidebar-color");
